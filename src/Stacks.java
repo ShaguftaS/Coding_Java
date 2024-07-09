@@ -45,7 +45,7 @@ class Stacks
 
     public static void main (String[] args)
     {
-        Stack<Integer> stack = new Stack<Integer>();
+        Stack<Integer> stack = new Stack<Integer>() ;
 
         stack_push(stack);
         stack_pop(stack);
