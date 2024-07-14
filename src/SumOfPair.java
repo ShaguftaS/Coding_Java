@@ -13,7 +13,7 @@ public class SumOfPair {
         int x = -2;
         int size = A.length;
 
-        if (check(A, size, x)) {
+        if ( check (A, size, x)) {
             System.out.println("Yes");
         }
         else {
