@@ -46,7 +46,7 @@ class Test
     {
         Stack<Integer> stack = new Stack<>();
 
-        stack_push(stack);
+        stack_push( stack );
         stack_pop(stack);
         stack_push(stack);
         stack_peek(stack);
