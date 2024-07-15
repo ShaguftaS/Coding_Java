@@ -24,7 +24,7 @@ class Test
     }
 
 
-    static void stack_peek(Stack<Integer> stack)
+    static void stack_peek( Stack<Integer> stack )
     {
         Integer element = stack.peek();
         System.out.println("Element on stack top: " + element);
