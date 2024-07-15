@@ -1,4 +1,3 @@
-import java.io.*;
 import java.util.*;
 
 class Stacks
@@ -34,7 +33,7 @@ class Stacks
     // Searching element in the stack
     static void stack_search(Stack<Integer> stack, int element)
     {
-        Integer pos = stack.search(element);
+        int pos = stack.search(element);
 
         if( pos == -1)
             System.out.println("Element not found");
@@ -45,7 +44,7 @@ class Stacks
 
     public static void main (String[] args)
     {
-        Stack<Integer> stack = new Stack<>() ;
+        Stack<Integer> stack = new Stack<> () ;
 
         stack_push(stack);
         stack_pop(stack);
