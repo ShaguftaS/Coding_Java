@@ -27,7 +27,7 @@ class Stacks
     // Displaying element on the top of the stack
     static void stack_peek(Stack<Integer> stack)
     {
-        Integer element = (Integer) stack.peek();
+        Integer element = stack.peek();
         System.out.println("Element on stack top: " + element);
     }
 
