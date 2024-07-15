@@ -34,7 +34,7 @@ class Stacks
     // Searching element in the stack
     static void stack_search(Stack<Integer> stack, int element)
     {
-        Integer pos = (Integer) stack.search(element);
+        Integer pos = stack.search(element);
 
         if( pos == -1)
             System.out.println("Element not found");
