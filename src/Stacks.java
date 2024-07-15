@@ -19,7 +19,7 @@ class Stacks
 
         for(int i = 0; i < 5; i++)
         {
-            Integer y = (Integer) stack.pop();
+            Integer y = stack.pop();
             System.out.println(y);
         }
     }
@@ -36,7 +36,7 @@ class Stacks
     {
         Integer pos = (Integer) stack.search(element);
 
-        if(pos == -1)
+        if( pos == -1)
             System.out.println("Element not found");
         else
             System.out.println("Element is found at position: " + pos);
