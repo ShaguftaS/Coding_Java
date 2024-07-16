@@ -9,7 +9,7 @@ public class SumOfPair {
     }
     public static void main( String[] args ){
         int[] A ;
-        A = new int[]{ 0, -1, 2, -3, 1 };
+        A = new int[] { 0, -1, 2, -3, 1 } ;
         int x = -2;
         int size = A.length;
 
