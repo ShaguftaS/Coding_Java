@@ -5,7 +5,7 @@ public class SumOfPair {
                 if(A[i] + A[j] == x) return true;
             }
         }
-        return false;
+        return false ;
     }
     public static void main( String[] args ){
         int[] A ;
