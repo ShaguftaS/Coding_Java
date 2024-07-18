@@ -3,6 +3,7 @@ public class Example {
         for (String s : array) {
             if (s.equals("nemo")) {
                 System.out.println("Found Nemo!");
+                break;
             }
         }
     }
