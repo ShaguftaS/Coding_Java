@@ -9,9 +9,9 @@ public class SumOfPair {
     }
     public static void main( String[] args ){
         int[] A = new int[]{0, -1, 2, -3, 1};
-        int x = -2;
         int size = A.length;
 
+        int x = -2;
         if ( check (A, size, x)) {
             System.out.println("Yes");
         }
