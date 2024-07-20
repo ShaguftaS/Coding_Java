@@ -14,7 +14,7 @@ class Test
 
     static void stack_pop( Stack<Integer> stack )
     {
-        System.out.println(" Pop Operation:");
+        System.out.println(" Pop Operation: ");
 
         for( int i = 0; i < 5; i++ )
         {
