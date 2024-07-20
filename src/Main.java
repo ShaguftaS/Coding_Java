@@ -16,7 +16,7 @@ class Test
     {
         System.out.println(" Pop Operation: ");
 
-        for( int i = 0; i < 5; i++ )
+        for(int i = 0; i < 5; i++ )
         {
             Integer y = stack.pop();
             System.out.println(y);
