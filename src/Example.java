@@ -2,7 +2,7 @@ public class Example {
     void findNemo(String[] array) {
         for (String s : array) {
             if (s.equals("nemo")) {
-                System.out.println("Found Nemo!");
+                System.out.println(" Found Nemo!");
                 break;
             }
         }
