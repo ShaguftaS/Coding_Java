@@ -36,7 +36,7 @@ public class Array {
         this.length--;
     }
 
-    public static void main ( String[] args ) {
+    public static void main (String[] args ) {
         Array arr = new Array();
         arr.push("hi");
         arr.push("you");
