@@ -2,7 +2,7 @@ public class ReverseString {
 
     private String reverse(String[] item) {
 
-        return "";
+        return " ";
     }
 
     public static void main ( String[] args ) {
