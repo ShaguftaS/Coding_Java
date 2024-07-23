@@ -8,7 +8,9 @@ public class ReverseString {
     public static void main ( String[] args ) {
         ReverseString rev = new ReverseString();
 
-        rev.reverse(item);
+        String[] item = {"Hi "};
+
+        rev.reverse (item);
 
     }
 
