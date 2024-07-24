@@ -15,7 +15,7 @@ public class Array {
         return this.length;
     }
     public String pop(){
-        if (this.length == 0) {
+        if ( this.length == 0) {
             throw new IllegalStateException("Cannot pop from an empty array.");
         }
         String lastItem = this.data[this.length - 1];
