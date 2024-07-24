@@ -10,7 +10,7 @@ public class Array {
         return this.data[index];
     }
     public int push(String item){
-        this.data[this.length] = item;  // No need for String.valueOf(item)
+        this.data[ this.length] = item;  // No need for String.valueOf(item)
         this.length++;
         return this.length;
     }
