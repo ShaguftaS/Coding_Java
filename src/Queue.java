@@ -9,7 +9,8 @@ public class Queue {
         this.maxSize = size;
         this.queArray = new long[size];
         front = 0;
-
-
+        rear = -1;
+        nItems = 0;
     }
+    public void
 }
