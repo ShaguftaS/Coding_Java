@@ -18,9 +18,9 @@ public class Queue {
         nItems ++ ;
     }
     public void view(){
-        System.out.println("[");
+        System.out.print("[");
         for(int i =0; i < queArray.length; i++){
-            System.out.println();
+            System.out.print();
         }
 
     }
