@@ -13,8 +13,9 @@ public class Queue {
         nItems = 0;
     }
     public void insert(long j){
-        rear++;
-        queArray[rear] =j;
+        rear++ ;
+        queArray[rear] = j ;
+        nItems ++ ;
 
     }
 }
