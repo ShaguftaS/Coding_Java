@@ -16,6 +16,9 @@ public class Queue {
         rear++ ;
         queArray[rear] = j ;
         nItems ++ ;
+    }
+    public void view(){
+        System.out.println("[");
 
     }
 }
