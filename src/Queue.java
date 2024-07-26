@@ -20,8 +20,8 @@ public class Queue {
     public void view(){
         System.out.print("[");
         for(int i =0; i < queArray.length; i++){
-            System.out.print();
+            System.out.print(queArray[i]+ " ");
         }
-
+        System.out.print("]");
     }
 }
