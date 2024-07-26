@@ -19,6 +19,9 @@ public class Queue {
     }
     public void view(){
         System.out.println("[");
+        for(int i =0; i < queArray.length; i++){
+            System.out.println();
+        }
 
     }
 }
