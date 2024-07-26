@@ -12,5 +12,7 @@ public class Queue {
         rear = -1;
         nItems = 0;
     }
-    public void
+    public void insert(long j){
+
+    }
 }
