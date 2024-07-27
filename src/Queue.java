@@ -17,6 +17,16 @@ public class Queue {
         queArray[rear] = j ;
         nItems ++ ;
     }
+    public long remove(){
+        long temp = queArray[front];
+        front++ ;
+        if(front == maxSize){
+            front = 0;
+        }
+        nItems --;
+        return temp;
+    }
+
     public void view(){
         System.out.print("[");
         for(int i =0; i < queArray.length; i++){
