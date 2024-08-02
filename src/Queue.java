@@ -21,7 +21,7 @@ public class Queue {
         nItems ++ ;
     }
     public long remove(){
-        long temp = queArray[front];
+        long temp = queArray[ front];
         front++ ;
         if(front == maxSize){
             front = 0;
