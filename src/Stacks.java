@@ -27,7 +27,7 @@ class Stacks
     static void stack_peek(Stack<Integer> stack)
     {
         Integer element = stack.peek();
-        System.out.println(" Element on stack top: " + element);
+        System.out.println("Element on stack top: " + element);
     }
 
     // Searching element in the stack
