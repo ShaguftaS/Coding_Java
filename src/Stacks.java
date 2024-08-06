@@ -36,7 +36,7 @@ class Stacks
         int pos = stack.search(element);
 
         if( pos == -1)
-            System.out.println(" Element not found");
+            System.out.println("Element not found");
         else
             System.out.println(" Element is found at position: " + pos);
     }
