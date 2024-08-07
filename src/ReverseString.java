@@ -10,7 +10,7 @@ public class ReverseString {
 
         String[] item = {"Hi "};
 
-        rev.reverse (item);
+        rev.reverse(item);
 
     }
 
