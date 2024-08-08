@@ -16,7 +16,7 @@ public class Array {
     }
     public String pop(){
         if ( this.length == 0) {
-            throw new IllegalStateException("Cannot pop from an empty array.");
+            throw new IllegalStateException(" Cannot pop from an empty array.");
         }
         String lastItem = this.data[this.length - 1];
         this.data[this.length - 1] = null;  // Clearing the reference to help garbage collection
