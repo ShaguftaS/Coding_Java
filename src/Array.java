@@ -26,7 +26,7 @@ public class Array {
     }
     public void delete(int index) {
         if (index < 0 || index >= this.length) {
-            throw new IndexOutOfBoundsException(" Index " + index + " out of bounds.");
+            throw new IndexOutOfBoundsException("Index " + index + " out of bounds.");
         }
 
         for (int i = index; i < this.length - 1; i++) {
