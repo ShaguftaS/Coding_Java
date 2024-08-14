@@ -38,7 +38,7 @@ public class Array {
 
     public static void main (String[] args) {
         Array arr = new Array();
-        arr.push("hi");
+        arr.push(" hi");
         arr.push(" you ");
         arr.push(" !");
         arr.delete(1);
