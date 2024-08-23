@@ -43,6 +43,6 @@ public class Queue {
         for(int i =0; i < queArray.length; i++){
             System.out.print(queArray[i]+ " ");
         }
-        System.out.print(" ]");
+        System.out.print(" ] ");
     }
 }
