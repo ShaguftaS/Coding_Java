@@ -39,7 +39,7 @@ public class Queue {
         return(nItems == maxSize);
     }
     public void view(){
-        System.out.print(" [");
+        System.out.print("[");
         for(int i =0; i < queArray.length; i++){
             System.out.print(queArray[i]+ " ");
         }
