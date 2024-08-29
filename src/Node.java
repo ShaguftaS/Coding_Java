@@ -1,4 +1,4 @@
 public class Node {
     int data ;
-    Node next = null;
+    Node next = null ;
 }
