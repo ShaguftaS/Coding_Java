@@ -40,7 +40,7 @@ public class Array {
         Array arr = new Array();
         arr.push("hi");
         arr.push("you");
-        arr.push(" !");
+        arr.push("!");
         arr.delete(1);
         //arr.pop();
         //arr.pop();
