@@ -13,5 +13,10 @@ public class SinglyLinkedList {
         newNode.next = first;
         first = newNode;
     }
+    public Node deleteFirst(){
+        Node tmp = first;
+        first = first.next;
+        return tmp;
+    }
 
 }
