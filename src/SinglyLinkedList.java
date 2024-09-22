@@ -20,7 +20,12 @@ public class SinglyLinkedList {
     }
     public void displayList(){
         System.out.println("list (first ---> last) ");
-
+        Node current = first;
+        while(current != null){
+            current.displayList();
+            current = current.next;
+        }
+        System.out.println();
     }
 
 }
