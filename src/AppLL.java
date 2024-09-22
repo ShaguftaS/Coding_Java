@@ -19,7 +19,17 @@ public class AppLL {
         System.out.println(listlength(nodeA));
         System.out.println(listlength(nodeB));
     }
-    public int listlength(Node aNode){
+    public static int listlength(Node aNode){
+        int length = 0;
+
+        Node currentNode = aNode;
+
+        while(currentNode != null){
+            length++;
+            currentNode = currentNode.next;
+        }
+
+        return length;
 
     }
 }
