@@ -18,5 +18,9 @@ public class SinglyLinkedList {
         first = first.next;
         return tmp;
     }
+    public void displayList(){
+        System.out.println("list (first ---> last) ");
+
+    }
 
 }
