@@ -12,5 +12,9 @@ public class AppLL {
         Node nodeD = new Node();
         nodeD.data = 8;
 
+        nodeA.next = nodeB ;
+        nodeB.next = nodeC;
+        nodeC.next = nodeD;
+
     }
 }
