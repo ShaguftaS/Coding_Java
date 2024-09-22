@@ -4,13 +4,13 @@ public class AppLL {
         nodeA.data = 4;
 
         Node nodeB = new Node();
-        nodeB.data = 4;
+        nodeB.data = 3;
 
         Node nodeC = new Node();
-        nodeC.data = 4;
+        nodeC.data = 7;
 
         Node nodeD = new Node();
-        nodeD.data = 4;
+        nodeD.data = 8;
 
     }
 }
