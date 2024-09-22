@@ -16,5 +16,10 @@ public class AppLL {
         nodeB.next = nodeC;
         nodeC.next = nodeD;
 
+        System.out.println(listlength(nodeA));
+        System.out.println(listlength(nodeB));
+    }
+    public int listlength(Node aNode){
+
     }
 }
