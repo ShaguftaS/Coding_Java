@@ -22,7 +22,7 @@ public class SinglyLinkedList {
         System.out.println("list (first ---> last) ");
         Node current = first;
         while(current != null){
-            current.displayList();
+            current.displayNode();
             current = current.next;
         }
         System.out.println();
