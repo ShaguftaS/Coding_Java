@@ -4,7 +4,7 @@ public class Node {
     Node next = null ;
 
     public void displayNode(){
-        System.out.println("{ " + data + "} ");
+        System.out.println("{ " + data + "} " );
     }
 
 }
