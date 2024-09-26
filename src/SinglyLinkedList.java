@@ -19,7 +19,7 @@ public class SinglyLinkedList {
         return tmp;
     }
     public void displayList(){
-        System.out.println(" list ( first ---> last) ");
+        System.out.println(" list ( first---> last) ");
         Node current = first;
         while(current != null){
             current.displayNode();
